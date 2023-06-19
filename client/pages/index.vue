@@ -3,7 +3,7 @@
 		<div class="flex justify-between">
 			<h3 class="text-2xl ml-5 font-bold">Users</h3>
 			<div class="mb-5">
-				<FormButton type="button" buttonStyle="primary" @click="navigateTo('/users/new')">New User</FormButton>
+				<FormButton type="button" buttonStyle="primary" @click="navigateTo('/users/new')">Create New User</FormButton>
 			</div>
 		</div>
 
@@ -38,7 +38,7 @@
 				</table>
 			</div>
 		</div>
-		<div class="flex justify-between">
+		<div class="flex justify-center gap-5">
 			<FormButton class="mt-10" type="button" buttonStyle="primary" @click="previousPage" :disabled="currentPage === 1">
 				Previous
 			</FormButton>
